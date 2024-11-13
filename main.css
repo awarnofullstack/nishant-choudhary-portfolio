@@ -1,5 +1,5 @@
 .navbar-style {
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
     background-color: white;
     padding: 10px 20px;
@@ -9,9 +9,10 @@
     border-radius: 30px;
     /* box-shadow: 0 0 2px rgb(57, 57, 57); */
     border: 1px solid rgba(194, 191, 191, 0.712);
+    z-index: 10;
 }
 
-.home-section{
+.home-section {
     position: relative;
     height: calc(100% - 66px);
     /* transform: translateY(24px); */
@@ -19,4 +20,255 @@
     flex-direction: column;
     justify-content: flex-end;
     gap: 20px;
+}
+
+.container {
+    width: 75% !important;
+}
+
+.cs-description {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    /* width: 65%; */
+    margin: 40px auto 0;
+}
+
+.cs-description .cs-highlight {
+    color: var(--color-blue);
+}
+
+.how-it-works {
+    margin-top: 40px;
+}
+
+.how-it-works .how-it-works-title,
+.research-title,
+.user-personas-title,
+.ideation-heading,
+.visual-heading,
+.reflection-heading {
+    color: var(--color-blue);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.how-it-works-pointers {
+    list-style: none;
+    margin: 30px 0 0;
+    /* padding: 0; */
+    width: 100%;
+}
+
+.how-it-works-pointers li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 0 30px;
+    gap: 20px;
+}
+
+.how-it-works-pointers li .circle {
+    background-color: var(--color-blue-100);
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.how-it-works-pointers li .circle+div {
+    width: 100%;
+}
+
+
+.how-it-works-pointers li .qa {
+    color: var(--color-blue);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.how-it-works-pointers li .ans {
+    color: var(--color-black);
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.how-it-works .vector-container {
+    text-align: right;
+    background-color: var(--color-blue-100);
+    height: 400px;
+    width: 90%;
+    margin-left: auto;
+}
+
+.how-it-works .vector-container img {
+    /* width: 100%; */
+    height: 100%;
+    object-fit: contain;
+}
+
+.research {
+    background-color: var(--color-blue-100);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.research .process {
+    margin: 25px 0;
+}
+
+.research .process-title {
+    font-size: 16px;
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+.research .processs-desc {
+    font-weight: normal;
+    color: var(--color-black);
+    font-size: 14px;
+}
+
+.research .process ul {}
+
+.research .process ul li {
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--color-black);
+    margin-bottom: 10px;
+}
+
+.user-personas {
+    margin-top: 40px;
+}
+
+.user-personas .row {
+    margin-top: 30px;
+}
+
+.user-personas .card {
+    border-color: #dbd8d8ba;
+    padding: 30px 20px;
+    box-shadow: 0 0 10px -6px rgba(0, 0, 0, 0.479);
+}
+
+.user-personas .card .user {
+    border-bottom: 1px dashed var(--color-grey-100);
+}
+
+.user-personas .card .user img {}
+
+.user-personas .card .user .user-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--color-black);
+    margin: 12px 0 2px;
+}
+
+.user-personas .card .user .user-bio {
+    font-size: 13px;
+    font-weight: normal;
+    display: inline-block;
+    color: var(--color-grey-100);
+    margin-bottom: 15px;
+}
+
+.user-personas .card .division-title,
+.ideation-title {
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--color-black);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.user-personas .card .goal-description {
+    font-size: 13px;
+    font-weight: normal;
+    color: var(--color-black);
+    padding-bottom: 15px;
+    border-bottom: 1px dashed var(--color-grey-100);
+}
+
+.user-personas .card .frustration .goal-description {
+    border: none;
+}
+
+/* .user-personas .card .goal{}
+
+.user-personas .card .goal{} */
+
+
+.ideation {
+    margin-top: 40px;
+}
+
+.visual-title,
+.reflection-title {
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--color-black);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.ideation .ideation-para,
+.visual-para,
+.reflection-para {
+    font-size: 13px;
+    font-weight: normal;
+    color: var(--color-black);
+}
+
+/* 
+.ideation .ideation-section {
+    margin-top: 35px;
+} */
+
+.ideation .ideation-section img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.visual-design img {
+    width: 100%;
+}
+
+.reflection {
+    margin-top: 40px;
+}
+
+
+.footer {
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+.footer-contact {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--color-black);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.footer .button {
+    width: fit-content;
+    border-radius: 10px;
+    padding: 8px 30px;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+
+.footer .button.secondary{
+    color: var(--color-black);
+    background-color: #D9D9D9;
+}
+
+
+.footer .button.dark{
+    color: #fff;
+    background-color: var(--color-black);
 }

@@ -9,8 +9,10 @@
 :root {
     --color-purple: #7462C3;
     --color-blue: #424DB6;
+    --color-blue-100: #F3F4FF;
     --color-black: #242327;
     --color-purle-100: #FCFBFF;
+    --color-grey-100: #797979;
 }
 
 .root {
@@ -27,7 +29,7 @@ button {
 }
 
 .navbar-style {
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
     background-color: white;
     padding: 10px 20px;
