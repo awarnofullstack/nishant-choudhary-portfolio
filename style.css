@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-purple: #7462C3;
+    --color-blue: #424DB6;
+    --color-black: #242327;
+    --color-purle-100: #FCFBFF;
+}
+
+.root {
+    width: 100%;
+    background-color: inherit;
+}
+
+p,
+span,
+a,
+button {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+.navbar-style {
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 20px;
+    transform: translateY(20px);
+    border-radius: 30px;
+    /* box-shadow: 0 0 2px rgb(57, 57, 57); */
+    border: 1px solid rgba(194, 191, 191, 0.712);
+}
+
+.navbar-style .menu-text-style {
+    font-weight: 500;
+    padding: 0;
+    font-size: 14px;
+}
+
+.swiper-custom-index {
+    height: calc(100% - 86px);
+    transform: translateY(24px);
+    width: 85%;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+
+.home-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-section .section-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: var(--color-cs-black);
+}
+
+.home-section .title-hightlight {
+    font-size: 13px;
+    color: var(--color-scheme);
+}
+
+.home-section .section-para {
+    text-align: center;
+    font-size: 13px;
+    color: var(--color-cs-black);
+}
+
+.home-section .section-vector {
+    object-fit: contain;
+    height: 280px;
+}
+
+.case-study-project {
+    justify-content: center;
+}
+
+.case-study-project hr{
+    margin: 8px 0;
+}
+
+
+.case-study-project .project-vector {
+    max-width: 80%;
+    object-fit: contain;
+    transform: translateY(40px);
+}
+
+.case-study-project .target-audience,
+.case-study-project .key-feature,
+.case-study-project .role-in-project,
+.case-study-project .impact-in-project {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    box-shadow: 0 0 10px -2px rgba(194, 191, 191, 0.507);
+    margin-bottom: 20px;
+    transform: translateY(-10px);
+}
+
+.case-study-project .target-audience{
+    margin-left: 35%;
+}
+
+.case-study-project .target-audience,
+.case-study-project .role-in-project{
+    width: 65%;
+}
+
+.case-study-project .key-feature,
+.case-study-project .impact-in-project{
+    width: 85%;
+    padding-bottom: 10px;
+}
+
+.case-study-project .key-feature{
+    margin-left: auto;
+}
+
+.case-study-project .role-in-project{
+    margin-left: 20%;
+}
+
+
+
+.case-study-project .target-audience .ta-heading,
+.case-study-project .role-in-project .role-heading,
+.case-study-project .key-feature .kf-heading,
+.case-study-project .impact-in-project .impact-heading {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.case-study-project .target-audience .ta-description,
+.case-study-project .role-in-project .role-description {
+    font-size: 10px;
+    margin: 0;
+}
+
+.case-study-project .key-feature .kf-lists {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.case-study-project .key-feature .kf-lists li {
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+
+.case-study-project .role-in-project .role-view-all{
+    text-decoration: none;
+    color: var(--color-blue);
+    font-size: 10px;
+}
+
+.case-study-project .role-in-project .role-view-all img{
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
+}
+
+.case-study-project .impact-in-project .impact-ul{
+    list-style: none;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+
+.case-study-project .impact-in-project .impact-ul .impact-li{
+    margin-bottom: 10px;
+    line-height: 15px;
+}
+
+.case-study-project .impact-in-project .impact-ul .impact-li:last-child{
+    margin: 0;
+}
+
+.case-study-project .impact-in-project .impact-ul .impact-li .impact-title{
+    font-size: 14px;
+    color: var(--color-blue);
+    margin: 0;
+    padding: 0;
+}
+
+.case-study-project .impact-in-project .impact-ul .impact-li span{
+    font-size: 10px;
+    color: var(--color-black);
+    margin: 0;
+    padding: 0;
+}
