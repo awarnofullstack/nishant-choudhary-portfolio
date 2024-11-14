@@ -98,6 +98,7 @@
     height: 400px;
     width: 90%;
     margin-left: auto;
+    border-radius: 10px;
 }
 
 .how-it-works .vector-container img {
@@ -274,5 +275,58 @@
 }
 
 @media screen and (max-width : 768px) {
-    
+    .root .container-fluid {
+        padding: 0;
+    }
+
+    .home-section {
+        padding: 100px 10px 10px;
+        overflow: hidden;
+    }
+
+    .home-section .section-vector {
+        transform: translateY(25px);
+        height: auto;
+        width: 75%;
+        object-fit: contain;
+        aspect-ratio: 3/3;
+    }
+
+    .home-section .title-hightlight {
+        margin: 0;
+    }
+
+    .section-title {
+        margin-bottom: 0;
+    }
+
+    .section-para {
+        margin-bottom: 0;
+    }
+
+    .cs-description {
+        font-size: 16px;
+    }
+
+    .how-it-works-pointers ul {
+        padding: 0;
+    }
+
+
+    .how-it-works-pointers li .circle+div {
+        width: 85%;
+    }
+
+    .how-it-works .vector-container {
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .how-it-works .vector-container img {
+        width: 70%;
+        height: auto;
+        object-fit: contain;
+    }
+
+
 }
