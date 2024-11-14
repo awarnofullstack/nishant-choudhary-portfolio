@@ -7,7 +7,7 @@ const swiper = new Swiper('.swiper-custom-index', {
     // },
     // If we need pagination
     pagination: {
-      el: '.swiper-pagination',
+      el: '.swiper-paginate',
     },
     on: {
         // Event listener for slide change
@@ -30,8 +30,8 @@ const swiper = new Swiper('.swiper-custom-index', {
   
     // Navigation arrows
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-btn-next',
+      prevEl: '.swiper-btn-prev',
     },
   
     // And if we need scrollbar
