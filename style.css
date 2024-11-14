@@ -18,6 +18,7 @@
 .root {
     width: 100%;
     background-color: inherit;
+    background-image: inherit;
 }
 
 p,
@@ -90,7 +91,7 @@ button {
     justify-content: center;
 }
 
-.case-study-project hr{
+.case-study-project hr {
     margin: 8px 0;
 }
 
@@ -114,26 +115,26 @@ button {
     transform: translateY(-10px);
 }
 
-.case-study-project .target-audience{
+.case-study-project .target-audience {
     margin-left: 35%;
 }
 
 .case-study-project .target-audience,
-.case-study-project .role-in-project{
+.case-study-project .role-in-project {
     width: 65%;
 }
 
 .case-study-project .key-feature,
-.case-study-project .impact-in-project{
+.case-study-project .impact-in-project {
     width: 85%;
     padding-bottom: 10px;
 }
 
-.case-study-project .key-feature{
+.case-study-project .key-feature {
     margin-left: auto;
 }
 
-.case-study-project .role-in-project{
+.case-study-project .role-in-project {
     margin-left: 20%;
 }
 
@@ -163,44 +164,103 @@ button {
     margin-bottom: 8px;
 }
 
-.case-study-project .role-in-project .role-view-all{
+.case-study-project .role-in-project .role-view-all {
     text-decoration: none;
     color: var(--color-blue);
     font-size: 10px;
 }
 
-.case-study-project .role-in-project .role-view-all img{
+.case-study-project .role-in-project .role-view-all img {
     width: 12px;
     height: 12px;
     object-fit: contain;
 }
 
-.case-study-project .impact-in-project .impact-ul{
+.case-study-project .impact-in-project .impact-ul {
     list-style: none;
     padding-left: 10px;
     margin-bottom: 0;
 }
 
 
-.case-study-project .impact-in-project .impact-ul .impact-li{
+.case-study-project .impact-in-project .impact-ul .impact-li {
     margin-bottom: 10px;
     line-height: 15px;
 }
 
-.case-study-project .impact-in-project .impact-ul .impact-li:last-child{
+.case-study-project .impact-in-project .impact-ul .impact-li:last-child {
     margin: 0;
 }
 
-.case-study-project .impact-in-project .impact-ul .impact-li .impact-title{
+.case-study-project .impact-in-project .impact-ul .impact-li .impact-title {
     font-size: 14px;
     color: var(--color-blue);
     margin: 0;
     padding: 0;
 }
 
-.case-study-project .impact-in-project .impact-ul .impact-li span{
+.case-study-project .impact-in-project .impact-ul .impact-li span {
     font-size: 10px;
     color: var(--color-black);
     margin: 0;
     padding: 0;
+}
+
+.md {
+    display: none;
+}
+
+@media screen and (max-width : 768px) {
+
+    .md {
+        display: block;
+    }
+
+    .lg {
+        display: none;
+    }
+
+    .navbar-style {
+        width: 100%;
+    }
+
+
+    .swiper-custom-index {
+        height: calc(100% - 150px);
+        width: 100%;
+    }
+
+    .home-section {
+        padding-top: 20px;
+    }
+
+    .home-section .section-vector {
+        object-fit: contain;
+        height: 480px;
+    }
+
+    .home-section .title-hightlight {
+        font-size: 14px;
+        font-weight: bold;
+        color: var(--color-scheme);
+        margin-bottom: 20px;
+    }
+    
+    .home-section .section-title{
+        margin-bottom: 20px;
+    }
+
+    .case-study-project .project-vector {
+        max-width: 100%;
+        transform: translateY(30px);
+        margin: 0 auto;
+    }
+
+    .case-study-project .btn {
+        padding: 15px 20px;
+        width: 200px;
+        transform: translateY(20px);
+        font-size: 14px;
+    }
+
 }
