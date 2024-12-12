@@ -9,6 +9,12 @@
     <!-- import stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./style.css">
+    <style>
+        :root{
+            --color-blue: #00A978;
+            --color-blue-100: #E5FFF0;
+        }
+    </style>
     <link rel="stylesheet" href="./main.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -19,7 +25,7 @@
     <div class="root">
         <div class="container-fluid" style="height: 100vh;">
 
-            <section class="home-section" style="background-color: #F3F4FF;">
+            <section class="home-section" style="background-color: #E5FFF0;">
                 <!-- navbar  -->
                 <div class="navbar navbar-style">
                     <div>
@@ -33,20 +39,20 @@
                         </a>
                     </div>
                 </div>
-                <span class="title-hightlight" style="--color-scheme: #7462C3;">Tutorazzi</span>
-                <h1 class="section-title">
-                    A smart tuition app for kids who <br> is in international curriculums
+                <span class="title-hightlight" style="--color-scheme: #00A978;">Helpbharat</span>
+                <h1 class="section-title lg">
+                    Help a needy person in cause <br> with helpbharat app
+                </h1>
+                <h1 class="section-title md">
+                    Help a needy person in cause <br> with helpbharat app
                 </h1>
 
-                <img src="./assets/img/tutoraazi-vector.png" alt="tutoraazi-vector" class="section-vector">
+                <img src="./assets/img/helpbharat-vector.png" alt="tutoraazi-vector" class="section-vector">
             </section>
 
-            <section class="container">
+            <section class="container-md container-main-80">
                 <p class="cs-description">
-                    <span class="cs-highlight">Tutorazzi</span> is a platform where students can connect with tutors
-                    worldwide across various international curriculums. The app supports students, parents,
-                    and teachers with a tailored, user-friendly interface that simplifies booking sessions,
-                    tracking progress, and finding the right tutors.
+                    <span class="cs-highlight">Helpbharat</span> is a donation platform that enables users to contribute to various causes, including medical emergencies, education support, and disaster relief. The app allows people to make impactful donations and connect with individuals in need across India.
                 </p>
 
                 <div class="row how-it-works">
@@ -58,25 +64,30 @@
                                 <li>
                                     <div class="circle"></div>
                                     <div>
-                                        <h4 class="qa">Install and make account</h4>
-                                        <p class="ans">Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                                            vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                                        <h4 class="qa">Create an Account</h4>
+                                        <p class="ans">Users sign up and create their profiles to start exploring available fundraisers and causes.</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="circle"></div>
                                     <div>
-                                        <h4 class="qa">Select teacher and send them trial class <br>request</h4>
-                                        <p class="ans">Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                                            vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                                        <h4 class="qa">Browse and Select Fundraisers</h4>
+                                        <p class="ans">Users can browse through multiple categories, such as medical emergencies, education, and disaster relief, and select a fundraiser they wish to support.</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="circle"></div>
                                     <div>
-                                        <h4 class="qa">After Approval take class and Keep <br>learning !</h4>
-                                        <p class="ans">Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                                            vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                                        <h4 class="qa">Make a Donation</h4>
+                                        <p class="ans">Once a fundraiser is chosen, users can donate directly through secure payment options available within the app.</p>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="circle"></div>
+                                    <div>
+                                        <h4 class="qa">Track Donation Impact</h4>
+                                        <p class="ans">Users can see updates from the fundraisers they have supported, providing transparency and a sense of connection to the cause.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -94,31 +105,24 @@
 
                     <div class="process">
                         <h5 class="process-title">Research Process 🧐</h5>
-                        <p class="processs-desc">Working closely with business owners and receiving insights from our
-                            project manager, I conducted a competitor analysis to understand the current solutions and
-                            identify gaps. Through initial feedback sessions, we gained critical insights into what each
-                            user needed, their pain points, and their primary frustrations.
-                            <br> Insights
+                        <p class="processs-desc">Our research focused on understanding the motivations and pain points of individuals who are inclined to donate. By analyzing competitor platforms and interviewing potential users, we identified key features that enhance trust, transparency, and ease of use in the donation process.
                         </p>
 
                         <ul>
-                            <li>Students needed a quick, curriculum-based tutor search and a smooth booking flow.</li>
-                            <li>Parents required easy access to track their child's progress and manage sessions.</li>
-                            <li>Teachers needed a flexible profile setup with availability management and a rating
-                                system.</li>
+                            <li> <b>Trust:</b> Users are more likely to donate if the app is transparent about fund distribution.</li>
+
+                            <li><b>Ease of Use: </b>A smooth, quick donation flow was crucial for user retention.</li>
+                            <li><b>Customization: </b>Many users wanted the flexibility to choose the type and amount of their donation.</li>
                         </ul>
                     </div>
 
                     <div class="process">
                         <h5 class="process-title">Competitor Analysis 🧐</h5>
-                        <p class="processs-desc">We examined platforms like VIPKid and Varsity Tutors, focusing on how
-                            they enable flexible learning schedules and curriculum filtering, which informed our design
-                            strategy for Tutorazzi.</p>
+                        <p class="processs-desc">We analyzed popular platforms like Ketto and GoFundMe to identify areas for improvement, particularly around trust-building, seamless navigation, and personalized donation options.</p>
 
                         <ul>
-                            <li>Often struggled to find tutors with the exact expertise in their curriculum.</li>
-                            <li>Needed simple tools to track performance and communicate with teachers.</li>
-                            <li>Sought an intuitive profile setup and flexible scheduling options.</li>
+                            <li><b>Trust Issues:</b> Users worry about the transparency of where their donations go.</li>
+                            <li><b>Complexity in Finding Causes: </b>Users found it hard to search for specific causes on existing platforms.</li>
                         </ul>
                     </div>
                 </div>
@@ -126,61 +130,58 @@
                 <div class="user-personas">
                     <h4 class="user-personas-title">User Personas</h4>
 
-                    <div class="row">
-                        <div class="col-4">
+                    <div class="row gap-4">
+                        <div class="col-md-4 col-12 px-md-0 px-4">
                             <div class="card">
                                 <div class="user">
                                     <img src="./assets/img/user-persona-1.png" alt="user persona">
-                                    <p class="user-name">Mia</p>
-                                    <span class="user-bio">A high school student in IB curriculum</span>
+                                    <p class="user-name">Shreya</p>
+                                    <span class="user-bio">25, student</span>
                                 </div>
                                 <div class="goal">
                                     <p class="division-title">🎯 Goal</p>
-                                    <p class="goal-description">Find tutors quickly, book sessions, and track
-                                        upcoming lessons.</p>
+                                    <p class="goal-description">Wants to make a one-time donation for disaster relief.</p>
                                 </div>
 
                                 <div class="frustration">
                                     <p class="division-title">😖 Frustrations</p>
-                                    <span class="goal-description">Difficulty filtering for IB-specific tutors.</span>
+                                    <span class="goal-description">Hesitant due to lack of trust and transparency in fund distribution</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-12 px-md-0 px-4">
                             <div class="card">
                                 <div class="user">
                                     <img src="./assets/img/user-persona-1.png" alt="user persona">
-                                    <p class="user-name">Mia</p>
-                                    <span class="user-bio">A high school student in IB curriculum</span>
+                                    <p class="user-name">Ananya</p>
+                                    <span class="user-bio">30, social worker</span>
                                 </div>
                                 <div class="goal">
                                     <p class="division-title">🎯 Goal</p>
-                                    <p class="goal-description">Find tutors quickly, book sessions, and track
-                                        upcoming lessons.</p>
+                                    <p class="goal-description">Donate quickly to causes she’s passionate about, especially medical emergencies.</p>
                                 </div>
 
                                 <div class="frustration">
                                     <p class="division-title">😖 Frustrations</p>
-                                    <span class="goal-description">Difficulty filtering for IB-specific tutors.</span>
+                                    <span class="goal-description">Wants transparency in fund allocation and a straightforward donation process.</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-12 px-md-0 px-4">
                             <div class="card">
                                 <div class="user">
                                     <img src="./assets/img/user-persona-1.png" alt="user persona">
-                                    <p class="user-name">Mia</p>
-                                    <span class="user-bio">A high school student in IB curriculum</span>
+                                    <p class="user-name">Rahul</p>
+                                    <span class="user-bio">45, business owner</span>
                                 </div>
                                 <div class="goal">
                                     <p class="division-title">🎯 Goal</p>
-                                    <p class="goal-description">Find tutors quickly, book sessions, and track
-                                        upcoming lessons.</p>
+                                    <p class="goal-description">Supports educational and medical causes and prefers to set up monthly contributions.</p>
                                 </div>
 
                                 <div class="frustration">
                                     <p class="division-title">😖 Frustrations</p>
-                                    <span class="goal-description">Difficulty filtering for IB-specific tutors.</span>
+                                    <span class="goal-description">Feels overwhelmed by too many fund options without a proper filter.</span>
                                 </div>
                             </div>
                         </div>
@@ -193,27 +194,18 @@
 
                     <div class="ideation-section">
                         <p class="ideation-title">Wireframes 🧐</p>
-                        <p class="ideation-para">We created low-fidelity wireframes to map out essential user journeys.
-                            Our focus was on a clear structure that simplified the experience for all users.</p>
+                        <p class="ideation-para">Early wireframes focused on creating an intuitive flow for selecting causes, making donations, and viewing updates. Iterations aimed at simplifying the donation process while providing enough information to build user trust.</p>
 
                         <img src="./assets/img/ideation-wireframe.png" alt="ideation wirefram" class="wireframe">
                     </div>
 
-                    <div class="ideation-section">
-                        <p class="ideation-title">Information Architecture 🧐</p>
-                        <p class="ideation-para">We created low-fidelity wireframes to map out essential user journeys.
-                            Our focus was on a clear structure that simplified the experience for all users.</p>
-
-                        <img src="./assets/img/ideation-arch.png" alt="ideation arch" class="wireframe">
-                    </div>
                 </div>
 
 
                 <div class="visual-design">
                     <h4 class="visual-heading">Visual Design</h4>
                     <p class="visual-title">Spacing and Margins 🧐</p>
-                    <p class="visual-para">We created low-fidelity wireframes to map out essential user journeys. Our
-                        focus was on a clear structure that simplified the experience for all users.</p>
+                    <p class="visual-para">The design focuses on a clean and empathetic interface, using soothing colors and simple layouts to encourage user engagement and create a comfortable giving experience.</p>
 
                     <div class="row">
                         <div class="col-6"><img src="./assets/img/visual-design-1.png" alt="visual Design"></div>
@@ -221,10 +213,9 @@
                     </div>
 
                     <p class="visual-title">High Fidelity Screens 🧐</p>
-                    <p class="visual-para">We created low-fidelity wireframes to map out essential user journeys. Our
-                        focus was on a clear structure that simplified the experience for all users.</p>
+                    <p class="visual-para">The final screens include visually appealing layouts for the home, cause categories, donation process, and user profiles, making the experience seamless and heartfelt.</p>
 
-                    <img src="./assets/img/visual-design-3.png" alt="visual Design">
+                    <img src="./assets/img/visual-design-helpbharat-3.png" alt="visual Design">
 
                 </div>
 
@@ -232,17 +223,14 @@
                     <h4 class="reflection-heading">Reflection and Key Learnings</h4>
 
                     <p class="reflection-title">Challenges 🧐</p>
-                    <p class="reflection-para">Balancing three user groups with unique needs in a single app was a
-                        rewarding design challenge.</p>
+                    <p class="reflection-para">One of the main challenges was creating a sense of trust and transparency for users. Balancing an emotional appeal with a straightforward interface required careful design choices.</p>
 
                     <p class="reflection-title">Learnings 🧐</p>
-                    <p class="reflection-para">This project emphasized the importance of adaptability and prioritizing
-                        usability testing, especially for applications catering to diverse user demographics.</p>
+                    <p class="reflection-para">The research highlighted the importance of transparency in donation platforms. Providing impact updates helps foster trust and repeat engagement from donors.</p>
 
 
                     <p class="reflection-title">Future Improvements 🧐</p>
-                    <p class="reflection-para">Enhanced AI-based tutor recommendations and expanded analytics on student
-                        progress are potential next steps.</p>
+                    <p class="reflection-para">Potential next steps include adding donation impact stories, enhancing cause recommendations, and creating a leaderboard for top donors to foster a sense of community.</p>
 
                 </div>
 

@@ -26,6 +26,10 @@
     width: 75% !important;
 }
 
+.container-main-80 {
+    width: 83%;
+}
+
 .cs-description {
     font-weight: bold;
     font-size: 1.125rem;
@@ -60,6 +64,10 @@
     width: 100%;
 }
 
+.how-it-works-pointers ul {
+    padding: 0;
+}
+
 .how-it-works-pointers li {
     display: flex;
     justify-content: flex-start;
@@ -73,6 +81,7 @@
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 2.5rem;
+    display: none;
 }
 
 .how-it-works-pointers li .circle+div {
@@ -81,7 +90,7 @@
 
 
 .how-it-works-pointers li .qa {
-    color: var(--color-blue);
+    color: var(--color-black);
     font-size: 1rem;
     font-weight: bold;
 }
@@ -145,6 +154,10 @@
 
 .user-personas .row {
     margin-top: 1.875rem;
+}
+
+.user-personas .row .col-md-4 {
+    width: 31.33% !important;
 }
 
 .user-personas .card {
@@ -276,10 +289,14 @@
 
 @media screen and (max-width : 768px) {
 
+    
     .root {
         height: 100vh;
         overflow: visible;
-        border: 1px solid red;
+    }
+
+    .container-main-80 {
+        width: 100%;
     }
 
     .root .container-fluid {
