@@ -299,13 +299,17 @@
         width: 100%;
     }
 
+    .navbar-style {
+        width: 90%;
+    }
+
     .root .container-fluid {
         padding: 0;
         height: 100%;
     }
 
     .home-section {
-        height: 100%;
+        height: 95%;
         padding: 6.25rem 0.625rem 0.625rem;
         overflow: hidden;
     }
@@ -315,7 +319,7 @@
         height: 60%;
         width: 100%;
         object-fit: contain;
-        aspect-ratio: 3/3;
+        aspect-ratio: 3/1;
     }
 
     .home-section .title-hightlight {
@@ -354,5 +358,8 @@
         object-fit: contain;
     }
 
+    .user-personas .row .col-12 {
+        width: 100% !important;
+    }
 
 }
