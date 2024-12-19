@@ -289,9 +289,9 @@ button {
     }
 
     .case-study-project .project-vector {
-        max-width: 437px;
-        width: 437px;
-        transform: translateY(-0.3125rem) translateX(35px);
+        max-width: 100%;
+        max-height: 100%;
+        transform: translateY(-0.3125rem);
         margin: 0 auto;
     }
 
